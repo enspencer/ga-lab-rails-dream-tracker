@@ -4,7 +4,8 @@ DreamTracker::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-
+  root 'dreams#index'
+  resources :dreams
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
